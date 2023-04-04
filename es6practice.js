@@ -25,3 +25,18 @@ function sum(a, b, ...num){
     return sum + a + b
 }
 //console.log(sum(100,200, 1,2,3,4,5))
+
+// var, let, const
+// var => can reassign and redeclare
+var firstName = 'Azharul'
+    firstName = 'Azad'
+var firstName = 'Md';
+// let => can reassign value but can't redeclare
+let lastName = 'Islam'
+    lastName = 'Islam'
+//let lastName = 'Islam' // error
+
+// const => cant reassign value or redeclare 
+const mobile = '123';
+    mobile = 455;
+//const mobile = 123;// error
