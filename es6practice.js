@@ -146,6 +146,25 @@ mySet.add('Dinajpur');
 // ################################################# end of array set ##############################
 
 
+// ###################### class ###########################
+class myClass {
+    constructor(num1, num2){
+        this.num1 = num1;
+        this.num2 = num2;
+    }
+    myProfession(profession) {
+        console.log('I am a ' + profession);
+    }
+    addNum(){
+        let sum = this.num1 + this.num2;
+        console.log(sum)
+    }
+}
+var cls = new myClass(10, 20);
+// cls.myProfession('Doctor');
+// cls.addNum();
+
+console.log(null == undefined)
 
 
 
